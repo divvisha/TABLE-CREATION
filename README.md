@@ -11,35 +11,35 @@
   
 # PROGRAM:
 
-  public class Main
-  {
-    public static void main(String[] args)
-    {
-        Emp emp1=new Emp();
-        Emp emp2=new Emp();
-        Emp emp3=new Emp();
-        emp1.Name="Robert";
-        emp1.year=1994;
-        emp1.Address="64-C Walls Street";
-        emp2.Name="Sam";
-        emp2.year=2000;
-        emp2.Address="68-D Walls Street";
-        emp3.Name="John";
-        emp3.year=1999;
-        emp3.Address="26-B Walls Street";
-        System.out.println("Name\t\tYear of joining\t\tAddress");
-        System.out.println();
-        System.out.println(emp1.Name+"\t\t\t"+emp1.year+"\t\t"+emp1.Address);
-        System.out.println(emp2.Name+"\t\t\t\t"+emp2.year+"\t\t"+emp2.Address);
-        System.out.println(emp3.Name+"\t\t\t"+emp3.year+"\t\t"+emp3.Address);
-    }
-  }
+  public class Main<br>
+  {<br>
+    public static void main(String[] args){<br>
+    {<br>
+        Emp emp1=new Emp();<br>
+        Emp emp2=new Emp();<br>
+        Emp emp3=new Emp();<br>
+        emp1.Name="Robert";<br>
+        emp1.year=1994;<br>
+        emp1.Address="64-C Walls Street";<br>
+        emp2.Name="Sam";<br>
+        emp2.year=2000;<br>
+        emp2.Address="68-D Walls Street";<br>
+        emp3.Name="John";<br>
+        emp3.year=1999;<br>
+        emp3.Address="26-B Walls Street";<br>
+        System.out.println("Name\t\tYear of joining\t\tAddress");<br>
+        System.out.println();<br>
+        System.out.println(emp1.Name+"\t\t\t"+emp1.year+"\t\t"+emp1.Address);<br>
+        System.out.println(emp2.Name+"\t\t\t\t"+emp2.year+"\t\t"+emp2.Address);<br>
+        System.out.println(emp3.Name+"\t\t\t"+emp3.year+"\t\t"+emp3.Address);<br>
+    }<br>
+  }<br>
   
-  public class Emp
-  {
-    String Name;
-    int year;
-    String Address;
+  public class Emp<br>
+  {<br>
+    String Name;<br>
+    int year;<br>
+    String Address;<br>
   }
   
 # OUTPUT:
